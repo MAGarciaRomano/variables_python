@@ -38,3 +38,18 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+# Solicitud de nombre completo (nombre y apellido).
+nombre_completo = str(input ("Escriba aquí su nombre completo (nombre y apellido):"))
+
+# Aplicación del método lower e impresión del resultado.
+# Se aplica el método lower directamente sobre la variable nombre_completo.
+print (nombre_completo.lower())
+
+# Aplicación del método upper e impresión del resultado.
+# Se crea una variable en la que se aplica el método upper a la variable nombre_completo.
+# Se imprime la variable creada.
+nombre_completo_upper = nombre_completo.upper()
+print (nombre_completo_upper)
+
+# Aplicación del método capitalize e impresión del resultado.
+print (nombre_completo.capitalize())

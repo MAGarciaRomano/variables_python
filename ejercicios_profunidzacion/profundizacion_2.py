@@ -33,3 +33,16 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+# Solicitud de nombre, apellido, DNI, edad y altura.
+nombre = str(input ("Ingrese su nombre/s:"))
+apellido = str(input ("Ingrese su apellido/s:"))
+nombre_completo = nombre + " " + apellido
+dni = str(input ("Ingrese el número de DNI:"))
+edad = int(input ("¿Qué edad tiene?:"))
+altura = float(input ("¿Cuál es su altura en metros (use punto como separador decimal)?:"))
+
+# Impresión de nombre completo y DNI
+print ("Nombre completo:", nombre_completo, "; DNI nº", dni)
+
+# Impresión de nombre completo, edad y altura.
+print ("Nombre completo:", nombre_completo, "; Edad", edad, "años; Estatura", altura, "metros")

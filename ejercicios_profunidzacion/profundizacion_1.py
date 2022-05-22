@@ -31,3 +31,30 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+# Solicitud de dos números.
+print ("Ingrese el primer número:")
+numero_1 = float(input ())
+
+print ("Ingrese el segundo número:")
+numero_2 = float(input ())
+
+# Cálculo e impresión de la suma entre los números introducidos.
+suma = numero_1 + numero_2
+print ("La suma entre", numero_1, "y", numero_2, "es:", suma)
+
+# Cálculo e impresión de la resta entre los dos números.
+resta = numero_1 - numero_2
+print ("La resta entre", numero_1, "y", numero_2, "es:", resta)
+
+# Cálculo e impresión de la multiplicación entre los dos números.
+producto = numero_1 * numero_2
+print ("El producto entre", numero_1, "y", numero_2, "es:", producto)
+
+# Cálculo e impresión de la división entre los dos números.
+cociente = numero_1 / numero_2
+print ("El cociente entre", numero_1, "y", numero_2, "es:", cociente)
+
+# Cálculo e impresión de una potencia.
+# El primer número es la base y el segundo el exponente.
+potencia = numero_1 ** numero_2
+print (numero_1, "elevado a", numero_2, "es:", potencia)
